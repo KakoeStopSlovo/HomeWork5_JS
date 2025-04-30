@@ -1,0 +1,16 @@
+#card {
+    height: 100%; /* Устанавливаем одинаковую высоту для карточек */
+    display: flex;
+    flex-direction: column; /* Содержимое карточки располагается вертикально */
+    justify-content: space-between; /* Равномерное распределение пространства */
+}
+
+#card-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    white-space: nowrap; /* Однострочный текст */
+    overflow: hidden; /* Обрезка текста */
+    text-overflow: ellipsis; /* Добавление троеточия */
+}
+
